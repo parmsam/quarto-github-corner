@@ -101,7 +101,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Here’s the README from the Github Repo, in case you missed it:</p>
 <section id="github-corner-extension-for-quarto" class="level1">
 <h1>Github Corner Extension For Quarto</h1>
-<p>This extension adds a GitHub corner to your Quarto book. A <a href="https://tholman.com/github-corners/">GitHub corner</a> is a small SVG image that links to a URL of your choice. As the name suggests, it is typically used to link to a GitHub repository, but you can link to any URL you like.</p>
+<p>This extension adds a GitHub corner to your Quarto book. A <a href="https://tholman.com/github-corners/">GitHub corner</a> is a small SVG image that links to a URL of your choice. As the name suggests, it is typically used to link to a GitHub repository and placed in the top-right or top-left corner of a webpage.</p>
 <section id="installing" class="level2">
 <h2 class="anchored" data-anchor-id="installing">Installing</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> add parmsam/github-corner</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -109,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="using" class="level2">
 <h2 class="anchored" data-anchor-id="using">Using</h2>
-<p>To use the extension, add the following to your <code>_quarto.yml</code> file:</p>
+<p>To use the extension, add the following to your quarto (<code>.qmd</code>) file front matter:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">filters</span><span class="kw">:</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> github-corner</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Next, you can customize the corner by setting the following parameters in the front matter under <code>github-corner</code>.</p>

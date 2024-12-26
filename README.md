@@ -1,6 +1,6 @@
 # Github Corner Extension For Quarto
 
-This extension adds a GitHub corner to your Quarto book. The GitHub corner is a small SVG image that links to a URL of your choice.
+This extension adds a GitHub corner to your Quarto book. A [GitHub corner](https://tholman.com/github-corners/) is a small SVG image that links to a URL of your choice. As the name suggests, it is typically used to link to a GitHub repository, but you can link to any URL you like.
 
 ## Installing
 

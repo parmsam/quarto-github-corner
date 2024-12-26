@@ -1,0 +1,17 @@
+---
+title: "Example"
+filters:
+  - github-corner
+github-corner:
+  url: "https://www.github.com/parmsam/quarto-github-corner"
+  logo-color: "white"
+  background-color: "#1c84e5"
+  size: 150
+  position: "left"
+---
+
+This filter adds [tholman](https://github.com/tholman/github-corners)'s [Github corner](https://tholman.com/github-corners/) to your Quarto HTML document.
+
+Here's the README from the Github Repo, in case you missed it:
+
+{{< include README.md >}}

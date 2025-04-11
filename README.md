@@ -23,7 +23,7 @@ filters:
 
 Next, you can customize the corner by setting the following parameters in the front matter under `github-corner`.
 
-- `url`: The URL to which the corner should link. This is a required parameter. Please ensure that you use the full URL, including the protocol (e.g., `https://www.github.com/parmsam/`).
+- `url`: The URL to which the corner should link. This is a required parameter. Please ensure that you use the full URL, including the protocol (e.g., `https://www.github.com/parmsam/quarto-github-corner`).
 - `logo-color`: The color of the logo. This can be any valid CSS color. The default is `#fff`.
 - `background-color`: The color of the background. This can be any valid CSS color. The default is `#151513f`.
 - `size`: The size of the corner in pixels. The default is `80`.

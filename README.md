@@ -6,7 +6,7 @@ This extension adds a GitHub corner to your Quarto document. A [GitHub corner](h
 
 
 ```bash
-quarto add parmsam/github-corner
+quarto add parmsam/quarto-github-corner
 ```
 
 This will install the extension under the `_extensions` subdirectory.

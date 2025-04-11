@@ -29,7 +29,7 @@ Next, you can customize the corner by setting the following parameters in the fr
 - `size`: The size of the corner in pixels. The default is `80`.
 - `position`: The position of the corner. This can be either `left` or `right`. The default is `right`.
 
-Here's the front matter I used in (example.qmd)[example.qmd]:
+Here's the front matter I used in [example.qmd](example.qmd):
 
 ```yaml
 filters:
